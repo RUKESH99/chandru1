@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a,i,count=0;
+printf("enter the number");
+scanf("%d",&a);
+for(i=1;i<=a;i++)
+{
+count++;
+}
+if(count==2)
+{
+printf("it is a prime");
+}
+else{
+printf("it is not prime);
+}
+getch();
+}
