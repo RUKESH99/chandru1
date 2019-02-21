@@ -15,7 +15,7 @@ if(count==2)
 printf("it is a prime");
 }
 else{
-printf("it is not prime);
+printf("it is not prime");
 }
 getch();
 }
