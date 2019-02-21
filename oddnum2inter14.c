@@ -1,12 +1,13 @@
 #include<stdio.h>
-#Include<conio.h>
+
+#include<conio.h>
 int main()
 {
-int a,i;
+int n,m,i;
 printf("enter the numbers");
-scanf("%d",&a,&b):
-for(i=0;i<a;i++)
-if(i%2)!=0
+scanf("%d%d",&n,&m);
+for(i=n;i<m;i++)
+if(i%2!=0)
 {
 printf("%d",i);
 }
